@@ -1,0 +1,53 @@
+<object-stream>
+  <list>
+    <models.PremiumMember>
+      <email>homer@simpson.com</email>
+      <name>Homer</name>
+      <address>Springfield</address>
+      <gender>M</gender>
+      <height>1.84</height>
+      <startingWeight>130.0</startingWeight>
+      <chosenPackage></chosenPackage>
+      <assessments/>
+    </models.PremiumMember>
+    <models.PremiumMember>
+      <email>marge@simpson.com</email>
+      <name>Marge</name>
+      <address>Springfield</address>
+      <gender>F</gender>
+      <height>2.0</height>
+      <startingWeight>87.0</startingWeight>
+      <chosenPackage></chosenPackage>
+      <assessments>
+        <entry>
+          <date>1990-06-06 23:00:00.0 UTC</date>
+          <models.Assessment>
+            <weight>1.0</weight>
+            <chest>1.0</chest>
+            <thigh>1.0</thigh>
+            <upperArm>1.0</upperArm>
+            <waist>1.0</waist>
+            <hips>1.0</hips>
+            <comment>Well done</comment>
+            <trainer>
+              <email>ned@flanders.com</email>
+              <name>Ned</name>
+              <address>Springfield</address>
+              <gender>M</gender>
+              <speciality>Skiing</speciality>
+            </trainer>
+          </models.Assessment>
+        </entry>
+      </assessments>
+    </models.PremiumMember>
+  </list>
+  <list>
+    <models.Trainer>
+      <email>ned@flanders.com</email>
+      <name>Ned</name>
+      <address>Springfield</address>
+      <gender>M</gender>
+      <speciality>Skiing</speciality>
+    </models.Trainer>
+  </list>
+</object-stream>
